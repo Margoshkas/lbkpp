@@ -1,0 +1,126 @@
+*{
+    max-width: 1280px;
+    margin: 0 ;
+  }
+  
+  @font-face {
+      font-family: "MyriadPro";
+      src: url("MYRIADPRO-REGULAR.OTF");
+  }
+  
+  header {
+      margin-top: 30px;
+  }
+  
+  .title {
+      font-family: "MyriadPro";
+      font-size: 53px;
+      color: #000000;
+      text-align: left;
+      text-decoration: none;
+  }
+  
+  .blueText {
+      color: #4bcaff;
+  }
+  
+  header .links {
+      margin-top: 30px;
+      border: 1px solid #35444f;
+      background-color: #35444f;
+      text-align: center;
+  }
+  
+  header .links button {
+      font-family: "MyriadPro";
+      font-size: 16px;
+      border: none;
+      background-color: #35444f;
+      color: white;
+      padding: 11px 42px;
+      display: inline-block;
+  }
+  
+  header .links button:hover {
+      cursor: pointer;
+      background-color: #222f3a;
+      border: 1px solid #818181;
+      border-top: #222f3a;
+      border-bottom: #222f3a;
+  }
+  section .leftLinks {
+    margin-top: 30px;
+    border: 1px solid #35444f;
+    display: inline-block;
+    width: 300px;
+    height: 265px;
+    padding: 10px 0px;
+}
+
+section .leftLinks button {
+    font-family: "MyriadPro";
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    display: block;
+    margin: auto 0;
+    padding: 15px 0px;
+    padding-left: 20px;
+}
+
+section .leftLinks button:hover {
+    cursor: pointer;
+    background-color: #dbdbdb;
+    width: 100%;
+    padding-right: 100px;
+}
+
+section .img {
+    float: right;
+    margin-top: 30px;
+    border: 0px solid #35444f;
+}
+
+
+section .paragraphs {
+    font-family: "MyriadPro";
+    text-align: left;
+    margin-right: 48px;
+    float: right;
+}
+
+section .text {
+    margin-top: 16px;
+}
+footer {
+    margin-top: 25px;
+    display: inline-block;
+    border: 1px solid #b4b7ba;
+    background-color: #b4b7ba;
+    width: 100%;
+    padding: 10px 0px;
+ }
+ 
+ footer .footerLeftLinks a {
+     font-family: "MyriadPro";
+     font-size: 18px;
+     text-decoration: none;
+     color: #0c1927;
+     padding: 0px 15px;
+     display: inline-block;
+ }
+ 
+ footer .footerLeftLinks a:hover {
+     color: #3181a6;
+     text-decoration: underline;
+ }
+ 
+ footer .rightLinks {
+     padding-left: 460px;
+ }
+ 
+ footer .rightLinks a:hover {
+     text-decoration: none;
+     color: #0c1927;
+     cursor: default;
+ }
