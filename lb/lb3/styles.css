@@ -1,0 +1,217 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 1350px;
+}
+
+html {
+    background-image: url(img/background.png);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: "Verdana";
+    src: url(Verdana.ttf);
+}
+
+@font-face {
+    font-family: "Verdana-Bold";
+    src: url(Verdana-Bold.ttf);
+}
+
+.float-right-item {
+    float: right;
+}
+
+.float-left-item {
+    float: left;
+}
+header {
+    margin-top: 40px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.container div {
+    display: inline-block;
+}
+
+.logo-link {
+    padding-top: 5px;
+}
+
+header .title-logo a {
+    float: left;
+    color: #ffffff;
+}
+
+header .left:hover {
+    filter: brightness(0) saturate(100%) invert(42%) sepia(80%) saturate(1782%) hue-rotate(350deg) brightness(100%) contrast(91%);
+}
+
+header .title-text {
+    display: block;
+}
+
+header .title-text a:hover {
+    color: #f26522;
+}
+
+header .title-top a {
+    font-family: "Verdana-Bold";
+    font-size: 22px;
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+header .title-bottom a {
+    font-family: "Verdana-Bold";
+    font-size: 17px;
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+header .right {
+    font-family: "Verdana";
+    color: #ffffff;
+    font-size: 20px;
+}
+
+header .right div {
+    display: block;
+}
+
+header .bottom-right {
+    float: right;
+}
+section {
+    margin-top: 40px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+section .img-container {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+section .first-block {
+    display: inline-block;
+    width: 100%;
+    margin-top: 45px;
+}
+
+section img {
+    border: 1px solid;
+    border-image-source: linear-gradient(white,black);
+    border-image-slice: 1;
+}
+
+section .image {
+    display: block;
+    position: relative;
+}
+
+section .image .content {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+section .details-top {
+    font-size: 13px;
+    padding: 0 25px;
+    text-align: start;
+}
+
+section .details-top, .details-bottom p {
+    margin: 0;
+}
+
+section .details-bottom {
+    font-size: 23px;
+    padding: 0 25px;
+    text-align: start;
+    margin-top: -10px;
+}
+
+section .view-details::after {
+    content: "View Details >";
+    font-size: 15px;
+    float: right;
+    padding-right: 22px;
+    margin-top: -30px;
+}
+
+section .second-block {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section .img-item a:hover {
+    color: #f26522;
+}
+
+section .main-image {
+    position: relative;
+    overflow: hidden;
+    height: 202px;
+}
+
+section .main-image .on-image-content {
+    position: absolute;
+    bottom: -75px;
+    left: 0;
+    color: #ffffff;
+    background-color: #f26522;
+    width: 100%;
+    height: 75px;
+    transition: bottom 0.1s ease;
+}
+
+section .image-item .image-title {
+    padding: 20px 0;
+    text-align: center;
+    font-family: "Verdana";
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+section .image-item .image-title a {
+    text-decoration: none;
+    color: white;
+}
+
+section .image-item .image-title a:hover {
+    color: #f26522;
+}
+
+section .first-block .image-item {
+    display: inline-block;
+}
+
+section .first-block .image-item:hover {
+    cursor: pointer;
+}
+
+section .first-block .image-item:hover .main-image .on-image-content {
+    bottom: 0;
+}
+footer {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Verdana";
+    font-size: 13px;
+    margin-top: 60px;
+}

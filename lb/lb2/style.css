@@ -44,7 +44,7 @@
   header .links button:hover {
       cursor: pointer;
       background-color: #222f3a;
-      border: 1px solid #818181;
+      outline: 1px solid #818181;
       border-top: #222f3a;
       border-bottom: #222f3a;
   }
@@ -78,6 +78,7 @@ section .leftLinks button:hover {
 section .img {
     float: right;
     margin-top: 30px;
+    margin-right: 150px;
     border: 0px solid #35444f;
 }
 
@@ -85,7 +86,7 @@ section .img {
 section .paragraphs {
     font-family: "MyriadPro";
     text-align: left;
-    margin-right: 48px;
+    margin-right: 175px;
     float: right;
 }
 
