@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,700;1,700&display=swap');
+
+*{
+  margin: 0 auto;
+}
+
+html {
+    background: url(img/Background.png);
+}
+
+table {
+    margin-top: 100px;
+}
+
+table, tr, td {
+    border: 1px solid #d8d8d8;
+    border-collapse: collapse;
+}
+
+table, td {
+    background-color: #fafafa;
+}
+
+table .title {
+    padding-top: 53px;
+}
+
+table .title-top {
+    font-family: "Arimo";
+    font-size: 24px;
+    color: #484848;
+    text-align: center;
+}
+
+table .title-bottom {
+    font-family: "Arimo";
+    font-size: 30px;
+    color: #484848;
+    text-align: center;
+    height: 70px;
+}
+
+table .standard{
+    font-family: "Arimo";
+    font-size: 25px;
+    color: #fff;
+    background-color: #89c331;
+    text-align: center;
+}
+
+table .ultimate{
+    font-family: "Arimo";
+    font-size: 25px;
+    color: #fff;
+    background-color: #f04a56;
+    text-align: center;
+}
+
+table .premium{
+    font-family: "Arimo";
+    font-size: 25px;
+    color: #fff;
+    background-color: #20807c;
+    text-align: center;
+}
+
+table .cost {
+    background-color: #fafafa;
+    height: 98px;
+}
+
+table .price-container {
+    display: flex;
+    margin-left: 33px;
+}
+
+table .price {
+    color: #484848;
+    font-family: "Arimo";
+    font-size: 60px;
+}
+
+table .point {
+    color: #484848;
+    font-family: "Arimo";
+    font-size: 23px;
+    padding-right: 150px;
+    padding-top: 10px;
+}
+
+table .per {
+    color: #484848;
+    font-family: "Arimo";
+    font-size: 18px;
+    font-weight: normal;
+}
+
+table .storage-main {
+    height: 70px;
+    background-color: #f2f2f2;
+}
+
+table .storage {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+    width: 315px;
+}
+table .min {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+}
+
+table .mid {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+}
+
+table .max {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+}
+
+table .band-main {
+    height: 70px;
+    background-color: #e3e3e3;
+}
+
+table .band {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+}
+
+table .limited {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    width: 315px;
+    text-align: center;
+}
+
+table .unlimited {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+}
+
+table .email-main {
+    height: 70px;
+    background-color: #f2f2f2;
+}
+
+table .email {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+}
+table .twenty-five {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+}
+
+table .forty-five {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+}
+
+table .sixty-five {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+}
+
+table .support-main {
+    height: 70px;
+    background-color: #e3e3e3;
+}
+
+table .support {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+}
+
+table .every-day {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+}
+
+table .products-main {
+    height: 70px;
+    background-color: #f2f2f2;
+}
+
+table .products {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+}
+
+table .twenty {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+}
+
+table .thirty {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+}
+
+table .sixty {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+}
+table .users-main {
+    height: 70px;
+    background-color: #e3e3e3;
+}
+
+table .users {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+}
+
+table .one {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+}
+
+table .ten {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+}
+
+table .fifteen {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+}
+
+table .buttons {
+    height: 70px;
+    background-color: #eee;
+}
+
+table .contact {
+    background-color: #ddd;
+}
+
+table .contact button {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #fff;
+    width: 190px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #484848;
+    border-radius: 5px;
+    display: block;
+    border: 0px;
+    height: 40px;
+}
+
+table .contact button:hover {
+    background-color: #3c3c3c;
+}
+
+table .buy-standard button {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #fff;
+    width: 190px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #89c331;
+    border-radius: 5px;
+    display: block;
+    border: 0px;
+    height: 40px;
+}
+
+table .buy-standard button:hover {
+    background-color: #6a9b1d;
+}
+table .buy-ultimate button {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #fff;
+    width: 190px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f04a56;
+    border-radius: 5px;
+    display: block;
+    border: 0px;
+    height: 40px;
+}
+
+table .buy-ultimate button:hover {
+    background-color: #b71c1c;
+}
+
+table .buy-premium button {
+    font-family: "Arimo";
+    font-weight: normal;
+    font-size: 15px;
+    color: #fff;
+    width: 190px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #20807c;
+    border-radius: 5px;
+    display: block;
+    border: 0px;
+    height: 40px;
+}
+
+table .buy-premium button:hover {
+    background-color: #186b67;
+}
