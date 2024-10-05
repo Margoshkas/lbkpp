@@ -251,12 +251,8 @@ section .form .checkbox input{
   .galochka:hover {
     cursor: pointer;
   }
-
-  .galochka:after {
-    content: "";
-    background-color: #FFFFFF;
-  }
-
+  
+ 
   input[type="checkbox"]:checked + .galochka {
     background-color: #FFFFFF;
     background-image: url("img/checkbox.png");
