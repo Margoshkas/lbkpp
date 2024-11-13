@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    background-color: #111110;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+section {
+    perspective: 700px;
+}
+
+section .text {
+    position: relative;
+    width: 100%;
+    height: 300vh;
+    animation-name: animation;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+section .text p {
+    color:#fcd000;
+    text-align: center;
+    font-size: 700%;
+    width: 100%;
+}
+
+@keyframes animation {
+    0% {
+        top: 1000px;
+        transform: rotateX(60deg) translateZ(0);
+    }
+    100% {
+        top: -2000px;
+        transform: rotateX(60deg) translateZ(-1500px);
+    }
+}
+
